@@ -33,6 +33,11 @@ follow these steps:
 
         cd aviso-lagrangian
 
+#. Initialise and update the required git submodules (e.g. pybind11):
+    .. code-block:: bash
+
+        git submodule update --init --recursive
+
 #. Create the build environment using the provided environment file:
     .. code-block:: bash
 
